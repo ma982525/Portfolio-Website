@@ -4,6 +4,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'work': ['Work Sans'],
+      },
       animation: {
         wiggle: 'wiggle 0.15s linear infinite',
       },
