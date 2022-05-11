@@ -14,6 +14,7 @@ import {
     ViewGridIcon,
     XIcon,
 } from '@heroicons/react/outline'
+import logo from '../Images/LOGO.png'
 
 export default function Header() {
     return (
@@ -24,8 +25,8 @@ export default function Header() {
                         <a href="#">
                             <span className="sr-only">Workflow</span>
                             <img
-                                className="h-8 w-auto sm:h-10"
-                                src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                                className="h-14 w-auto sm:h-16"
+                                src={logo}
                                 alt=""
                             />
                         </a>
@@ -37,19 +38,19 @@ export default function Header() {
                         </Popover.Button>
                     </div>
                     <Popover.Group as="nav" className="hidden md:flex space-x-10">
-                        <a href="#" className="text-base font-medium text-white hover:text-[#6eb9f7]">
+                        <a href="#about" className="text-base font-medium text-white hover:text-blue-500">
                             About
                         </a>
-                        <a href="#" className="text-base font-medium text-white hover:text-[#6eb9f7]">
+                        <a href="#projects" className="text-base font-medium text-white hover:text-blue-500">
                             Projects
                         </a>
-                        <a href="#" className="text-base font-medium text-white hover:text-[#6eb9f7]">
+                        <a href="#experience" className="text-base font-medium text-white hover:text-blue-500">
                             Experience
                         </a>
-                        <a href="#" className="text-base font-medium text-white hover:text-[#6eb9f7]">
+                        <a href="#resume" className="text-base font-medium text-white hover:text-blue-500">
                             Resume
                         </a>
-                        <a href="#" className="text-base font-medium text-white hover:text-[#6eb9f7]">
+                        <a href="#contact" className="text-base font-medium text-white hover:text-blue-500">
                             Contact
                         </a>
                     </Popover.Group>
@@ -71,8 +72,8 @@ export default function Header() {
                             <div className="flex items-center justify-between">
                                 <div>
                                     <img
-                                        className="h-8 w-auto"
-                                        src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                                        className="h-16 w-auto"
+                                        src={logo}
                                         alt="Workflow"
                                     />
                                 </div>
@@ -86,27 +87,27 @@ export default function Header() {
                         </div>
                         <div className="py-6 px-5 space-y-6">
                             <div>
-                                <a href="#" className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white animate-[wiggle_0.6s_linear_infinite] bg-gradient-to-r from-cyan-500 to-blue-500">
+                                <a href="#about" className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white animate-[wiggle_0.6s_linear_infinite] bg-gradient-to-r from-cyan-500 to-blue-500">
                                     About
                                 </a>
                             </div>
                             <div>
-                                <a href="#" className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white animate-[wiggle_0.6s_linear_infinite] delay-400 bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-indigo-700">
+                                <a href="#projects" className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white animate-[wiggle_0.6s_linear_infinite] delay-400 bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-indigo-700">
                                     Projects
                                 </a>
                             </div>
                             <div>
-                                <a href="#" className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white animate-[wiggle_0.6s_linear_infinite] delay-800 bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-indigo-700">
+                                <a href="#experience" className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white animate-[wiggle_0.6s_linear_infinite] delay-800 bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-indigo-700">
                                     Experience
                                 </a>
                             </div>
                             <div>
-                                <a href="#" className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white animate-[wiggle_0.6s_linear_infinite] delay-100 bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-indigo-700">
+                                <a href="#resume" className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white animate-[wiggle_0.6s_linear_infinite] delay-100 bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-indigo-700">
                                     Resume 
                                 </a>
                             </div>
                             <div>
-                                <a href="#" className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white animate-[wiggle_0.6s_linear_infinite] delay-600 bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-indigo-700">
+                                <a href="#contact" className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white animate-[wiggle_0.6s_linear_infinite] delay-600 bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-indigo-700">
                                     Contact
                                 </a>
                             </div>

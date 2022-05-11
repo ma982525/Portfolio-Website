@@ -2,6 +2,10 @@ import logo from '../logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 import Typical from 'react-typical';
+import hero from '../Images/hero.png'
+import codechef from '../Images/codechef.png'
+import hackerrank from '../Images/hackerrank-logo.jpg'
+import leetcode from '../Images/leetcode.png'
 
 export default function Hero() {
   return (
@@ -9,23 +13,36 @@ export default function Hero() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-1 text-white h-full ">
         <div className="grid grid-cols-6 gap-1 text-white">
           <div className='col-span-1 flex justify-center items-end'>
-            <div className='grid grid-rows-4 mb-16 pb-9 border-white border-b-2 text-cyan-300'>
-              <div className='my-4'>
-                <FontAwesomeIcon size='xl' icon={faGithub} />
+            <div className='grid grid-rows-4 mb-16 pb-9 border-white border-b-2 text-[#00E3BF] '>
+              <div className='my-4 mx-auto'>
+                <a href='https://www.codechef.com/users/mp982525' target='blank'>
+                  <img src={codechef} alt="" className='w-8 hover:scale-150 transition-all '/>
+                </a>
               </div>
-              <div className='my-4'>
-                <FontAwesomeIcon size='xl' icon={faLinkedin} />
+              <div className='my-4 mx-auto'>
+                <a href='https://leetcode.com/developer_manish/' target='blank' >
+                  <img src={leetcode} alt="" className='w-8 hover:scale-150 transition-all'/>
+                </a>
               </div>
-              <div className='my-4'>
-                <FontAwesomeIcon size='xl' icon={faGithub} />
+              <div className='my-4 mx-auto'>
+                <a href='https://leetcode.com/developer_manish/' target='blank' >
+                  <img src={hackerrank} alt="" className='w-8 hover:scale-150 transition-all'/>
+                </a>
               </div>
-              <div className='my-4'>
-                <FontAwesomeIcon size='xl' icon={faLinkedin} />
+              <div className='my-4 mx-auto'>
+                <a href='https://github.com/ma982525' target='blank' >
+                  <FontAwesomeIcon size='xl' icon={faGithub} className="hover:scale-150 transition-all"/>
+                </a>
+              </div>
+              <div className='my-4 mx-auto'>
+                <a href='https://www.linkedin.com/in/manish-parmar-codekings' target='blank' >
+                  <FontAwesomeIcon size='xl' icon={faLinkedin} className="hover:scale-150 transition-all"/>
+                </a>
               </div>
             </div>
           </div>
-          <div className='col-span-5 flex justify-center items-center'>
-            <img src={logo} alt='logo'/>
+          <div className='col-span-5 flex justify-center items-center pr-20 pl-5 '>
+            <img src={hero} alt='logo'/>
           </div>
         </div>
         <div className='flex justify-center flex-col text-center sm:text-left'>

@@ -2,7 +2,7 @@ import { PaperClipIcon } from '@heroicons/react/solid'
 
 export default function Resume() {
     return (
-        <div className='container w-11/12 mx-auto '>
+        <div className='container w-11/12 mx-auto pb-16'>
             <div className="max-w-7xl mx-auto bg-white shadow overflow-hidden sm:rounded-lg rounded-md">
                 <div className="px-4 py-5 sm:px-6">
                     <h3 className="text-lg leading-6 font-medium text-gray-900">Quick Information</h3>
@@ -20,7 +20,7 @@ export default function Resume() {
                         </div>
                         <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                             <dt className="text-sm font-medium text-gray-500">Email address</dt>
-                            <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">m.p982525@gmail.com</dd>
+                            <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2"><a href="mailto:m.p982525@gmail.com" className='hover:text-blue-700'>m.p982525@gmail.com</a></dd>
                         </div>
                         <div className="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                             <dt className="text-sm font-medium text-gray-500">Skills</dt>
@@ -29,9 +29,19 @@ export default function Resume() {
                         <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                             <dt className="text-sm font-medium text-gray-500">About</dt>
                             <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
-                                Fugiat ipsum ipsum deserunt culpa aute sint do nostrud anim incididunt cillum culpa consequat. Excepteur
-                                qui ipsum aliquip consequat sint. Sit id mollit nulla mollit nostrud in ea officia proident. Irure nostrud
-                                pariatur mollit ad adipisicing reprehenderit deserunt qui eu.
+                                This is Manish Parmar, final year student pursuing B.Tech in Information Technology. I had done my schoolings from Kendriya Vidhyalay, CBSE Board and after that joined Dharmsinh Desai University to pursue B.Tech Degree in Information Technology. I am a good programmer, developer and designer. I developed various websites and designed it. I love to create award winning websites & applications.
+                            </dd>
+                        </div>
+                        <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <dt className="text-sm font-medium text-gray-500">Open For Roles</dt>
+                            <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                                I am open for following positions :-<br/><br/>
+                                <ul className='text-blue-700'>
+                                    <li>~ SDE intern</li>
+                                    <li>~ FullStack Developer</li>
+                                    <li>~ Frontend Developer</li> 
+                                    <li>~ Backend Developer</li>                                    
+                                </ul>  
                             </dd>
                         </div>
                         <div className="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
@@ -44,8 +54,8 @@ export default function Resume() {
                                             <span className="ml-2 flex-1 w-0 truncate">resume_manish_parmar.pdf</span>
                                         </div>
                                         <div className="ml-4 flex-shrink-0">
-                                            <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
-                                                Download
+                                            <a href="#" className="font-medium bg-blue-700 px-6 py-2 rounded-md text-white hover:text-blue-700 hover:bg-white hover:border-2 hover:border-blue-700">
+                                                View Now
                                             </a>
                                         </div>
                                     </li>
