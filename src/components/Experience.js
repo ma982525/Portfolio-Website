@@ -1,8 +1,3 @@
-import manishProfile from '../Images/manish_profile.jpg';
-import homeAutomation from '../Images/home-automation.png';
-import kolor from '../Images/kolor.png';
-import portis from '../Images/portis.png';
-import { PaperClipIcon } from '@heroicons/react/solid'
 import {useInView} from 'react-intersection-observer';
 
 export default function Experience() {
@@ -40,9 +35,10 @@ export default function Experience() {
                                 </p>
                             </div>
                             <div className="px-6 pt-4 pb-2">
-                                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-                                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-                                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                                <span className="inline-block bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Hostinger</span>
+                                <span className="inline-block bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">cPanel</span>
+                                <span className="inline-block bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">php</span>
+                                <span className="inline-block bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Payment Integration</span>
                             </div>
                         </div>
 
@@ -72,9 +68,9 @@ export default function Experience() {
                                 </p>
                             </div>
                             <div class="px-6 pt-4 pb-2">
-                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                                <span class="inline-block bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">coding</span>
+                                <span class="inline-block bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">contest</span>
+                                <span class="inline-block bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">webinars</span>
                             </div>
                         </div>
 
@@ -110,9 +106,9 @@ export default function Experience() {
                                 </p>
                             </div>
                             <div class="px-6 pt-4 pb-2">
-                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                                <span class="inline-block bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Figma</span>
+                                <span class="inline-block bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">UI Design</span>
+                                <span class="inline-block bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Graphics Design</span>
                             </div>
                         </div>
 
@@ -139,9 +135,10 @@ export default function Experience() {
                                 </p>
                             </div>
                             <div class="px-6 pt-4 pb-2">
-                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                                <span class="inline-block bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">ReactNative</span>
+                                <span class="inline-block bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">HTML</span>
+                                <span class="inline-block bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">CSS</span>
+                                <span class="inline-block bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">UI</span>
                             </div>
                         </div>
 

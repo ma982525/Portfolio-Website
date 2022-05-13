@@ -2,7 +2,7 @@ import { PaperClipIcon } from '@heroicons/react/solid'
 
 export default function Resume() {
     return (
-        <div className='container w-11/12 mx-auto pb-16'>
+        <div className='container w-11/12 mx-auto py-16'>
             <div className="max-w-7xl mx-auto bg-white shadow overflow-hidden sm:rounded-lg rounded-md">
                 <div className="px-4 py-5 sm:px-6">
                     <h3 className="text-lg leading-6 font-medium text-gray-900">Quick Information</h3>
@@ -54,7 +54,7 @@ export default function Resume() {
                                             <span className="ml-2 flex-1 w-0 truncate">resume_manish_parmar.pdf</span>
                                         </div>
                                         <div className="ml-4 flex-shrink-0">
-                                            <a href="#" className="font-medium bg-blue-700 px-6 py-2 rounded-md text-white hover:text-blue-700 hover:bg-white hover:border-2 hover:border-blue-700">
+                                            <a href="https://drive.google.com/file/d/1-kWtIlZiKJ4xDUcHhbVjiGKabVYSqwus/view?usp=sharing" className="font-medium bg-blue-700 px-6 py-2 rounded-md text-white hover:text-blue-700 hover:bg-white hover:border-2 hover:border-blue-700">
                                                 View Now
                                             </a>
                                         </div>

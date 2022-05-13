@@ -1,11 +1,10 @@
-import logo from '../logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
-import Typical from 'react-typical';
 import hero from '../Images/hero.png'
 import codechef from '../Images/codechef.png'
 import hackerrank from '../Images/hackerrank-logo.jpg'
 import leetcode from '../Images/leetcode.png'
+import TypeAnimation from 'react-type-animation';
 
 export default function Hero() {
   return (
@@ -45,20 +44,35 @@ export default function Hero() {
             <img src={hero} alt='logo'/>
           </div>
         </div>
-        <div className='flex justify-center flex-col text-center sm:text-left'>
+        <div className='flex justify-center flex-col text-center md:text-left'>
           <h2 className='text-l font-bold sm:text-xl md:text-3xl text-[#bbcdeb]'>Hello!  I am </h2>
           <h1 className='mt-2 text-4xl tracking-tight font-extrabold sm:text-5xl md:text-7xl'>Manish Parmar 👋</h1>
-          <h2 className='mt-4 text-4xl tracking-tight sm:text-5xl md:text-4xl'>
+          <h2 className='hidden sm:block sm:block mt-4 text-4xl tracking-tight sm:text-5xl md:text-4xl'>
             I am a{' '}
-            <Typical className='bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent'
-              steps={[
+            <TypeAnimation className='font-bold bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent px-10 sm:px-0'
+              cursor={true}
+              sequence={[
                 'FullStack Developer', 4000,
                 'Great Designer', 4000,
                 'Problem Solver',4000,
                 'Tech Enthusiast',4000
               ]}
-              loop={Infinity}
-              wrapper="b"
+              wrapper="span"
+              repeat="infinity"
+            />
+          </h2>
+          <h2 className='block sm:hidden mt-4 text-4xl tracking-tight sm:text-5xl md:text-4xl text-center'>
+            I am a
+            <TypeAnimation className='font-bold bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent px-10 sm:px-0'
+              cursor={true}
+              sequence={[
+                'FullStack Developer', 4000,
+                'Great Designer', 4000,
+                'Problem Solver',4000,
+                'Tech Enthusiast',4000
+              ]}
+              wrapper="p"
+              repeat="infinity"
             />
           </h2>
         </div>

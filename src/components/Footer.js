@@ -1,8 +1,3 @@
-import manishProfile from '../Images/manish_profile.jpg';
-import homeAutomation from '../Images/home-automation.png';
-import kolor from '../Images/kolor.png';
-import portis from '../Images/portis.png';
-import { PaperClipIcon } from '@heroicons/react/solid'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub,faLinkedin,faTwitter} from '@fortawesome/free-brands-svg-icons';
 import { MailIcon } from '@heroicons/react/solid';
